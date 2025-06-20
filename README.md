@@ -29,6 +29,20 @@ toDisplay() – Handles input display logic, including clearing the screen, back
 calculate() – Computes and displays the result of the arithmetic operations.
 Additionally, an eventListener with keydown is implemented to enable keyboard input for numbers and operations
 
+#Tools and Technologies Used
+VS Code:
+Primary code editor for writing HTML, CSS, and JavaScript.
+HTML5:
+Structured the calculator layout (buttons, display input).
+CSS3:
+Styled the calculator (grid layout, hover effects, responsive design).
+JavaScript :
+Implemented core functionalities:
+toDisplay(): Handles input logic (clearing, backspace, operator validation).
+cal(): Evaluates expressions using eval().
+Keyboard support via keydown event listener.
+Browser Developer Tools:
+Used for debugging and testing responsiveness.
 
 #Output 
 ![Image](https://github.com/user-attachments/assets/71465f23-2da2-4f16-996e-bc4d469716e4)
