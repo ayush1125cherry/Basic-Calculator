@@ -49,7 +49,7 @@ const toDisplay = (value) => {
     '*': '*',
     '/': '/',
     '.': '.',
-    ',': '.', // Some keyboards use comma for decimal
+    ',': '.', 
     'Enter': '=',
     '=': '=',
     'Escape': 'C',
@@ -58,7 +58,7 @@ const toDisplay = (value) => {
   };
 
    if (key in keyMap) {
-    e.preventDefault(); // Prevent default behavior for calculator keys
+    e.preventDefault(); 
     
     const action = keyMap[key];
     
