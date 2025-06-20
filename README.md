@@ -27,5 +27,8 @@ app.js Description
 The JavaScript file includes two main functions:
 toDisplay() – Handles input display logic, including clearing the screen, backspacing, and preventing consecutive operations.
 calculate() – Computes and displays the result of the arithmetic operations.
-
 Additionally, an eventListener with keydown is implemented to enable keyboard input for numbers and operations
+
+
+#Output 
+![Image](https://github.com/user-attachments/assets/71465f23-2da2-4f16-996e-bc4d469716e4)
