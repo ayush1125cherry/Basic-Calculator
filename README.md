@@ -9,6 +9,7 @@ DURATION: 4 Weeks
 MENTOR: Neela Santosh
 
 #Description About the Task
+Task number 3
 I have created a basic calculator using HTML, CSS, and JavaScript. The calculator features an interactive interface with buttons for addition, subtraction, multiplication, and division operations. It also includes decimal input, backspace functionality, and numeric buttons from 0 to 9, with an additional "00" button for convenience.
 To enhance usability, I implemented keyboard support using JavaScript, allowing users to input numbers and operations via their keyboard. The project was developed using VS Code as the primary code editor.
 
