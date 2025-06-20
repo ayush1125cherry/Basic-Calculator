@@ -5,9 +5,6 @@ const toDisplay = (value) => {
   } else if (value === "←") {  
     x.value = x.value.toString().slice(0, -1);
   } else {
-    if (value === '.' && x.value.toString().split(/[\+\-\*\/]/).pop().includes('.')) {
-      return;
-    }
     if (['+', '-', '*', '/'].includes(value)) {
       const lastChar = x.value.toString().slice(-1);
       if (['+', '-', '*', '/'].includes(lastChar)) {
