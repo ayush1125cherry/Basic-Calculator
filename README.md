@@ -1,2 +1,9 @@
 # Basic-Calculator
-calculator using html,css and js
+"calculator using html,css and js"
+
+*COMPANY: CODTECH IT SOLUTIONS
+*NAME*: Ayush Rawat
+"INTERN ID*: CS25RY62853
+*DOMAIN": WEB DEVELOPMENT
+*DURATION: 4 WEEEKS
+*MENTOR*: NEELA SANTOSH
