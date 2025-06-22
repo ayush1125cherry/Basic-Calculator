@@ -21,15 +21,36 @@ Backspace
 Basic arithmetic operations (+, -, *, /)
 Each button has an onClick attribute that triggers corresponding functions in app.js.
 
-Here we have the main div calculator that contains input ,a div buttons with buttons with naming class btn.Java script onClick is used to  display number on display and then the html program ends
+Here we have the main div calculator that contains input, a div buttons with buttons with naming class btn. JavaScript onClick is used to  display number on the display, and then the HTML program ends
 style.css Description
 This file contains all the styling rules to make the calculator visually appealing and user-friendly.
+The CSS provides visual appeal and responsive design:
+Centers the calculator on the page using flexbox
+Gives the calculator a border and background color
+Styles the display area with a different background color
+Uses CSS Grid for the button layout (4 columns)
+Includes hover effects for buttons
+Special styling for the equals button
 
 app.js Description
-The JavaScript file includes two main functions:
-toDisplay() – Handles input display logic, including clearing the screen, backspacing, and preventing consecutive operations.
-calculate() – Computes and displays the result of the arithmetic operations.
-Additionally, an eventListener with keydown is implemented to enable keyboard input for numbers and operations
+The JavaScript (app.js) handles the calculator's logic, including input handling, calculations, and keyboard support.
+Key Functions:
+toDisplay(value) – Manages input display:
+C (Clear) → Resets the display (x.value = "").
+← (Backspace) → Removes the last character (slice(0, -1)).
+*Operators (+, -, , /) → Prevents consecutive operators (e.g., ++).
+Digits & Decimal → Appends to the display (x.value += value).
+cal() – Evaluates the expression:
+Uses eval() to compute the result (with error handling).
+Displays "Error" if the expression is invalid.
+Keyboard Support (keydown event listener):
+Maps keyboard keys to calculator functions (keyMap object).
+Supports: digits (0-9) → Direct input.
+*Operators (+, -, , /) → Arithmetic functions.
+Enter / = → Triggers calculation.
+Escape / Delete → Clears the display.
+Backspace → Removes the last character.
+
 
 #Tools and Technologies Used
 VS Code:
