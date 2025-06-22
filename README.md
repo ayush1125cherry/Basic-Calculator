@@ -21,6 +21,7 @@ Backspace
 Basic arithmetic operations (+, -, *, /)
 Each button has an onClick attribute that triggers corresponding functions in app.js.
 
+Here we have the main div calculator that contains input ,a div buttons with buttons with naming class btn.Java script onClick is used to  display number on display and then the html program ends
 style.css Description
 This file contains all the styling rules to make the calculator visually appealing and user-friendly.
 
